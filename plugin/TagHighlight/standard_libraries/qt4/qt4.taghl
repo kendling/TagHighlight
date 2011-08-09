@@ -1,0 +1,6 @@
+syn keyword CTagsMethod I18N MainWindow
+syn keyword CTagsClass I18N MainWindow
+syn keyword CTagsField foo bar
+
+
+syn cluster javaTop add=CTagsMethod,CTagsClass,CTagsField,CTagsPackage
